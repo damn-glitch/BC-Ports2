@@ -1,0 +1,78 @@
+{
+  "manifest": {
+    "shipmentId": "SHIP123456",
+    "date": "2024-06-20",
+    "origin": {
+      "name": "Port of Shanghai",
+      "country": "China"
+    },
+    "destination": {
+      "name": "Port of Los Angeles",
+      "country": "USA"
+    },
+    "containers": [
+      {
+        "containerId": "CONT001",
+        "sealNumber": "SEAL12345",
+        "containerType": "20FT",
+        "weight": 2000,
+        "items": [
+          {
+            "itemId": "ITEM001",
+            "description": "Electronics",
+            "quantity": 100,
+            "weight": 500,
+            "hazardous": false
+          },
+          {
+            "itemId": "ITEM002",
+            "description": "Clothing",
+            "quantity": 500,
+            "weight": 1000,
+            "hazardous": false
+          }
+        ]
+      },
+      {
+        "containerId": "CONT002",
+        "sealNumber": "SEAL67890",
+        "containerType": "40FT",
+        "weight": 4000,
+        "items": [
+          {
+            "itemId": "ITEM003",
+            "description": "Furniture",
+            "quantity": 50,
+            "weight": 1500,
+            "hazardous": false
+          },
+          {
+            "itemId": "ITEM004",
+            "description": "Chemicals",
+            "quantity": 200,
+            "weight": 2500,
+            "hazardous": true
+          }
+        ]
+      }
+    ],
+    "shipper": {
+      "name": "Global Shipping Co.",
+      "address": "123 Shipping Lane, Shanghai, China",
+      "contact": {
+        "name": "John Doe",
+        "phone": "+86 123 456 7890",
+        "email": "john.doe@globalshipping.com"
+      }
+    },
+    "consignee": {
+      "name": "Importers Inc.",
+      "address": "456 Import Blvd, Los Angeles, CA, USA",
+      "contact": {
+        "name": "Jane Smith",
+        "phone": "+1 987 654 3210",
+        "email": "jane.smith@importersinc.com"
+      }
+    }
+  }
+}
